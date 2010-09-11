@@ -18,6 +18,36 @@
 <font SIZE="20"/>
 <hook NAME="MapStyle" max_node_width="600"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node TEXT="Assumptions" POSITION="right" ID="ID_1720081322" CREATED="1283735063574" MODIFIED="1283735958618" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="Linux" ID="ID_521311819" CREATED="1283735071271" MODIFIED="1283735958657" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Personal System" ID="ID_1060941593" CREATED="1283735399084" MODIFIED="1283735958678" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+<node ID="ID_784761604" CREATED="1283735407131" MODIFIED="1283735958722" COLOR="#990000">
+<richcontent TYPE="NODE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Not enterprise<br/>backup plan
+    </p>
+  </body>
+</html></richcontent>
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="Simple and quick" ID="ID_1420425011" CREATED="1283735631359" MODIFIED="1283735958760" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
 <node TEXT="Types of Backup" POSITION="right" ID="ID_207403067" CREATED="1283734977818" MODIFIED="1283735958277" COLOR="#0033ff">
 <font SIZE="18"/>
 <edge STYLE="sharp_bezier" WIDTH="8"/>
@@ -48,8 +78,7 @@
       Media
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font SIZE="18"/>
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <node TEXT="Online" ID="ID_1296540646" CREATED="1283735002523" MODIFIED="1283735958500" COLOR="#00b439">
@@ -83,13 +112,56 @@
 <node TEXT="Remote Storage" ID="ID_346107799" CREATED="1283736033247" MODIFIED="1283736041830" COLOR="#00b439">
 <font SIZE="16"/>
 <edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="email servers" ID="ID_1920479678" CREATED="1283809090069" MODIFIED="1283809097991" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+<node TEXT="&quot;cloud&quot;" ID="ID_1313626326" CREATED="1283809098521" MODIFIED="1283809112969" COLOR="#990000">
+<font SIZE="14"/>
+</node>
 </node>
 <node TEXT="DVD/CD" ID="ID_696260515" CREATED="1283736448798" MODIFIED="1283736455126" COLOR="#00b439">
 <font SIZE="16"/>
 <edge STYLE="bezier" WIDTH="thin"/>
+<node TEXT="Offsite" ID="ID_1456084793" CREATED="1283809126298" MODIFIED="1283809134020" COLOR="#990000">
+<font SIZE="14"/>
+</node>
+<node TEXT="Static files" ID="ID_1976608400" CREATED="1283809134738" MODIFIED="1283809144168" COLOR="#990000">
+<font SIZE="14"/>
 </node>
 </node>
-<node TEXT="Plan" POSITION="right" ID="ID_995351662" CREATED="1283734989907" MODIFIED="1283735958390" COLOR="#0033ff">
+</node>
+<node TEXT="Tools" POSITION="left" ID="ID_1696211957" CREATED="1283735863727" MODIFIED="1283735958798" COLOR="#0033ff">
+<font SIZE="18"/>
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<node TEXT="Drag and drop in file manager" ID="ID_76973929" CREATED="1283735906311" MODIFIED="1283735958888" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node ID="ID_715814196" CREATED="1283735867548" MODIFIED="1283736862256" COLOR="#00b439">
+<richcontent TYPE="NODE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Century Schoolbook L" color="#f79609">cp -a &lt;src&gt; &lt;backup&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="Back In Time" ID="ID_1270885705" CREATED="1283735780018" MODIFIED="1283735974383" LINK="http://backintime.le-web.org/" HGAP="17" VSHIFT="2" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+<node TEXT="tar" ID="ID_856381262" CREATED="1283809243543" MODIFIED="1283809253735" COLOR="#00b439">
+<font SIZE="16"/>
+<edge STYLE="bezier" WIDTH="thin"/>
+</node>
+</node>
+<node TEXT="Plan" POSITION="left" ID="ID_995351662" CREATED="1283734989907" MODIFIED="1283735958390" COLOR="#0033ff">
 <font SIZE="18"/>
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <node TEXT="How much" ID="ID_1774595682" CREATED="1283735044922" MODIFIED="1283735958430" COLOR="#00b439">
@@ -145,64 +217,6 @@
 <font SIZE="12"/>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="Assumptions" POSITION="left" ID="ID_1720081322" CREATED="1283735063574" MODIFIED="1283735958618" COLOR="#0033ff">
-<font SIZE="18"/>
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<node TEXT="Linux" ID="ID_521311819" CREATED="1283735071271" MODIFIED="1283735958657" COLOR="#00b439">
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
-</node>
-<node TEXT="Personal System" ID="ID_1060941593" CREATED="1283735399084" MODIFIED="1283735958678" COLOR="#00b439">
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
-<node ID="ID_784761604" CREATED="1283735407131" MODIFIED="1283735958722" COLOR="#990000">
-<richcontent TYPE="NODE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Not enterprise<br/>backup plan
-    </p>
-  </body>
-</html></richcontent>
-<font SIZE="14"/>
-</node>
-</node>
-<node TEXT="Simple and quick" ID="ID_1420425011" CREATED="1283735631359" MODIFIED="1283735958760" COLOR="#00b439">
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
-</node>
-</node>
-<node TEXT="Tools" POSITION="left" ID="ID_1696211957" CREATED="1283735863727" MODIFIED="1283735958798" COLOR="#0033ff">
-<font SIZE="18"/>
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<node TEXT="Drag and drop in file manager" ID="ID_76973929" CREATED="1283735906311" MODIFIED="1283735958888" COLOR="#00b439">
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
-</node>
-<node ID="ID_715814196" CREATED="1283735867548" MODIFIED="1283736862256" COLOR="#00b439">
-<richcontent TYPE="NODE">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Century Schoolbook L" color="#f79609">cp -a &lt;src&gt; &lt;backup&gt;</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
-</node>
-<node TEXT="Back In Time" ID="ID_1270885705" CREATED="1283735780018" MODIFIED="1283735974383" LINK="http://backintime.le-web.org/" HGAP="17" VSHIFT="2" COLOR="#00b439">
-<font SIZE="16"/>
-<edge STYLE="bezier" WIDTH="thin"/>
 </node>
 </node>
 </node>
